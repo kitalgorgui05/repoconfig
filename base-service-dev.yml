@@ -1,0 +1,4 @@
+base :
+  param:
+    x: 30
+    y: 20
