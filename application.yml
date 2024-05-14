@@ -1,5 +1,8 @@
-global:
-  param:
-    P1: 12
-    P2: 13
+jpa:
+  hibernate:
+    ddl-auto: update
+  database: mysql
+  database-platform: org.hibernate.dialect.MySQLDialect
+springdoc:
+  default-produces-media-type: application/json
 

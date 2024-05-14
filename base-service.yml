@@ -1,4 +1,5 @@
-base :
-  param:
-    x: 20
-    y: 10
+datasource:
+  url: jdbc:mysql://localhost:3306/basedb
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  username: root
+  password: kitalraph
