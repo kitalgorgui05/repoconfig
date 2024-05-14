@@ -4,6 +4,11 @@ spring:
       ddl-auto: update
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/basedb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: kitalraph
 springdoc:
   default-produces-media-type: application/json
 
