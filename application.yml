@@ -1,8 +1,9 @@
-jpa:
-  hibernate:
-    ddl-auto: update
-  database: mysql
-  database-platform: org.hibernate.dialect.MySQLDialect
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
 springdoc:
   default-produces-media-type: application/json
 
